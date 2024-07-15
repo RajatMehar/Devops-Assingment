@@ -17,3 +17,5 @@ COPY . .
 
 # Specify the command to run the tests when the container starts
 CMD ["pytest"]
+CMD ["pytest", "--junitxml=pytest.xml"]
+
